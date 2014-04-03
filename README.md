@@ -22,3 +22,6 @@ time ./petsc_opencl -ts_monitor -ts_type theta -ts_theta_theta 0.5 -ts_dt 0.005 
 
 For a full list of options do
 ./petsc_opencl -help
+
+The code also demonstrates efficient use of memory hierachy in OpenCL and
+provides diagnostics of all the memory usage in an OpenCL kernel.
